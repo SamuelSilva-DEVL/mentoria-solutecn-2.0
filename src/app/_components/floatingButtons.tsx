@@ -8,7 +8,7 @@ export default function FloatingButtons() {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 flex flex-col items-end gap-4 z-50">
+    <div className="fixed bottom-6 right-6 flex flex-col items-end gap-4 z-50" data-aos="fade-left">
       {/* Botão WhatsApp */}
       <a
         href="https://wa.me/5511999999999" // Substitua com seu número
@@ -22,8 +22,9 @@ export default function FloatingButtons() {
 
       {/* Botão Voltar ao Topo */}
       <button
+        title='Voltar ao topo'
         onClick={scrollToTop}
-        className="bg-[#1C4070] hover:bg-[#173458] text-white p-4 rounded-full shadow-lg transition"
+        className="bg-[var(--tertiary-color)] hover:opacity-80 text-[var(--text-primary-color)] p-4 rounded-full shadow-lg transition cursor-pointer"
         aria-label="Voltar ao topo"
       >
         <FaArrowUp size={20} />

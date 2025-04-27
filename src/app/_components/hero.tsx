@@ -2,12 +2,12 @@ import { ButtonWppLink } from "./buttonWppLink";
 
 export function Hero() {
   return (
-    <section className="bg-[url('/fundo-texturizado.jpg')] text-white relative overflow-hidden">
+    <section className="bg-[url('/fundo-texturizado.jpg')] relative overflow-hidden">
       <div className="container mx-auto pt-16 pb-16 px-4 relative">
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
             <h1
-              className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10 text-slate-100"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10 text-[var(--text-primary-color)]"
               data-aos="fade-down"
             >
               Descubra como{" "}
