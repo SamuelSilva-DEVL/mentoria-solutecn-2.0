@@ -134,7 +134,7 @@ export function Modules() {
               {modulesList.map((item) => (
                 <div
                   key={item.id}
-                  className="basis-full shrink-0 grow-0 md:basis-1/3 pe-3"
+                  className="basis-full md:basis-1/2 lg:basis-1/3 shrink-0 grow-0  pe-3"
                   style={{}}
                 >
                   <article className="relative overflow-hidden bg-cover bg-center rounded-2xl h-60 flex flex-col bg-[url('/teclado-mouse.webp')] border-white border-b-3">

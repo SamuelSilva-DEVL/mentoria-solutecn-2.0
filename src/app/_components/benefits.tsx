@@ -37,10 +37,10 @@ export function Benefits() {
   return (
     <section className="bg-black relative overflow-hidden">
       <div className="container mx-auto pt-16 pb-16 px-4 relative">
-        <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 text-[var(--text-primary-color)]">
+        <article className="w-4/5 flex flex-col lg:flex-row gap-4 m-auto text-[var(--text-primary-color)]">
           <div className="space-y-6">
             <h2
-              className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
+              className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10"
               data-aos="fade-down"
             >
               Os 5 principais benefícios de trabalhar na área de QA
@@ -51,6 +51,7 @@ export function Benefits() {
             </p>
             <img
               src="/imagem-beneficios.png"
+              alt="imagem-beneficios"
               height={400}
               width={"80%"}
               className="m-auto"
@@ -64,9 +65,9 @@ export function Benefits() {
             data-aos="fade-left"
           >
             <ul className="list-disc list-inside space-y-2 list-none flex flex-col gap-2.5">
-              {benefitsList.map((benefit) => (
-                <li key={benefit.id} className="flex gap-2.5 items-start">
-                  <FaCheckCircle className="text-6xl" />
+              {benefitsList.map((benefit, index) => (
+                <li key={benefit.id} className="flex gap-2.5 items-start" data-aos="fade-down" data-aos-delay={index * 120}>
+                  <FaCheckCircle className="text-6xl text-[var(--text-secondary-color)]" />
                   <div>
                     <h4 className="text-2xl font-semibold">{benefit.title}</h4>
                     <p className="text-xl">{benefit.description}</p>

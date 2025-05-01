@@ -24,7 +24,7 @@ export default function FloatingButtons() {
       <button
         title='Voltar ao topo'
         onClick={scrollToTop}
-        className="bg-[var(--tertiary-color)] hover:opacity-80 text-[var(--text-primary-color)] p-4 rounded-full shadow-lg transition cursor-pointer"
+        className="bg-[var(--primary-color)] hover:opacity-80 text-[var(--text-primary-color)] p-4 rounded-full shadow-md transition cursor-pointer"
         aria-label="Voltar ao topo"
       >
         <FaArrowUp size={20} />
