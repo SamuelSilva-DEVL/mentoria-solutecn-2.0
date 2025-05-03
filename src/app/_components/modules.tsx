@@ -117,9 +117,9 @@ export function Modules() {
   }, [emblaApi]);
 
   return (
-    <section className="bg-black py-16">
+    <section className="bg-[var(--secondary-color-sn)] py-16" id="modulos">
       <div className="w-full mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-[var(--text-primary-color)] text-center">Módulos da mentoria</h2>
+        <h2 className="text-4xl font-bold mb-12 text-[var(--text-primary-color-sn)] text-center">Módulos da mentoria</h2>
 
         <div className="relative">
           <div className="overflow-hidden w-full" ref={emblaRef}>
@@ -137,7 +137,7 @@ export function Modules() {
                   className="basis-full md:basis-1/2 lg:basis-1/3 shrink-0 grow-0  pe-3"
                   style={{}}
                 >
-                  <article className="relative overflow-hidden bg-cover bg-center rounded-2xl h-60 flex flex-col bg-[url('/teclado-mouse.webp')] border-white border-b-3">
+                  <article className="relative overflow-hidden bg-cover bg-center rounded-2xl h-60 flex flex-col bg-[url('/teclado-mouse.webp')] border-white border-b-3 text-[var(--text-primary-color-sn)]">
                     {/* Overlay semi-transparente */}
                     <div
                       className="absolute inset-0 bg-[var(--primary-color)]"
@@ -145,7 +145,7 @@ export function Modules() {
                     />
 
                     {/* Conteúdo por cima */}
-                    <div className="relative z-10 p-6 flex flex-col space-y-4 h-full text-white">
+                    <div className="relative z-10 p-6 flex flex-col space-y-4 h-full">
                       <div className="flex-1 flex items-start justify-between">
                         <div className="flex gap-3">
                           <div>

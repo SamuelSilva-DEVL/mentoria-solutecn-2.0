@@ -2,11 +2,15 @@ import { ButtonWppLink } from "./buttonWppLink";
 
 export default function ValueCourse() {
   return (
-    <section className="py-16 bg-black text-center">
-      <div className="w-1/2 px-4 py-8 m-auto rounded-xl shadow-md flex items-center flex-col gap-3 shadow-md" style={{
-    backgroundColor: 'transparent',
-    backgroundImage: 'linear-gradient(180deg, #FFF7F714 0%, #1C4070 100%)'
-  }}>
+    <section className="py-16 bg-[var(--primary-color-sn)] text-center text-[var(--tertiary-color-sn)]" id="valores">
+      <div
+        className="w-[80%] md:w-1/2 px-4 py-8 m-auto rounded-xl shadow-md flex items-center flex-col gap-4 shadow-md"
+        style={{
+          backgroundColor: "transparent",
+          backgroundImage:
+            "linear-gradient(180deg, var(--primary-color-sn) 0%, var(--secondary-color-sn) 100%)",
+        }}
+      >
         <img
           src="/icone-mentoria.png"
           height={"250px"}
@@ -16,14 +20,14 @@ export default function ValueCourse() {
         ></img>
 
         <h2
-          className="text-xl font-bold mb-2"
+          className="text-xl font-bold"
           data-aos="fade-up"
           data-aos-delay="400"
         >
           POR APENAS:
         </h2>
 
-        <p className="text-8xl" data-aos="fade-up" data-aos-delay="500">
+        <p className="text-6xl md:text-8xl font-extrabold" data-aos="fade-up" data-aos-delay="500">
           12 x de 97
         </p>
 

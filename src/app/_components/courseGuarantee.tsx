@@ -49,10 +49,10 @@ const guarantees = [
 
 export default function CourseGuarantee() {
   return (
-    <section className="bg-black">
+    <section className="bg-[var(--tertirary-color-sn)] text-[var(--primary-color-sn)]" id="beneficios">
       <div className="container mx-auto pt-16 pb-16 px-4 flex flex-col gap-6 items-center justify-center">
         <div className="w-4/5 m-auto">
-          <h2 className="text-5xl mx-auto font-bold text-center w-4/6 text-[var(--text-primary-color)]">
+          <h2 className="w-full md:w-4/6 text-4xl md:text-5xl mx-auto font-bold text-center mb-3">
             Ao se inscrever nele agora você terá uma mentoria com:
           </h2>
 
@@ -60,7 +60,7 @@ export default function CourseGuarantee() {
             {guarantees.map((guarantee) => (
               <div
                 key={guarantee.id}
-                className="w-[32.63%] border-2 border-[var(--text-secondary-color)] rounded-lg p-1.5 flex flex-col items-center justify-center"
+                className="w-full md:w-[48%] lg:w-[31%] xxl:w-[32.63%] border-2 border-[var(--primary-color-sn)] rounded-lg p-1.5 flex flex-col items-center justify-center"
               >
                 <img
                   src="/icone-mentoria.png"
@@ -68,10 +68,10 @@ export default function CourseGuarantee() {
                   height={"200"}
                   width={"200"}
                 ></img>
-                <h3 className="text-[var(--text-secondary-color)] text-center">
+                <h3 className="text-xl font-bold text-[var(--secondary-color-sn)] text-center">
                   {guarantee.title}
                 </h3>
-                <p className="text-[var(--text-primary-color)] text-center">
+                <p className=" text-center">
                   {guarantee.description}
                 </p>
               </div>
@@ -80,7 +80,7 @@ export default function CourseGuarantee() {
         </div>
 
         <div
-          className="w-4/5 m-auto flex items-center gap-3 rounded-lg bg-white"
+          className="w-4/5 m-auto flex flex-col md:flex-row items-center gap-3 rounded-lg bg-[var(--primary-color-sn)] p-6 text-[var(--text-primary-color-sn)] mb-3"
           style={{
             boxShadow: "0px 9px 13px 0px rgba(0, 0, 0, 0.19)",
           }}
@@ -92,8 +92,8 @@ export default function CourseGuarantee() {
             width={"200"}
           ></img>
 
-          <div className="space-y-3">
-            <h3 className="text-[var(--text-secondary-color)] text-[22px]">
+          <div className="space-y-3 text-center md:text-left">
+            <h3 className="font-bold text-[22px]">
               Garantia Estendida de 14 Dias – Mais Tempo, Mais Segurança!
             </h3>
             <p className="text-[16px]">

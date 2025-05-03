@@ -11,8 +11,17 @@
   --secondary-color: #173458;
   --tertiary-color: #00FFFF;
 
+  --primary-color-sn: #050D22;
+  --secondary-color-sn: #0F0F0F;
+  --tertiary-color-sn: #F5F5F5;
+
   --text-primary-color: #f1f5f9;
   --text-secondary-color: #00FFFF;
+
+  --text-primary-color-sn: #E0E0E0;
+  --text-secondary-color-sn: #050D22;
+  --button-primary-color: #1E90FF;
+
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -89,6 +98,7 @@
 
 body {
   max-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 .dark {
@@ -163,4 +173,40 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.wpp-button-link {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: Consolas, Courier New, monospace;
+  font-size: 16px;
+  color: #E0E0E0;
+  background: linear-gradient(145deg, #050D22, #0F0F0F);
+  border: solid #1E90FF 1px; 
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 
+  -1px -5px 15px #1E90FF,
+  5px 5px 15px #1E90FF,
+  inset 5px 5px 10px #0F0F0F, 
+  inset -5px -5px 10px #0F0F0F;
+}
+
+.wpp-button-link:hover {
+  color: #F5F5F5;
+  box-shadow: 
+    1px 1px 13px #1E90FF, 
+    -1px -1px 13px #4CAF50; 
+}
+
+.wpp-button-link:active {
+  color: #F5F5F5;
+  box-shadow: 
+    1px 1px 13px #1E90FF, 
+    -1px -1px 33px #4CAF50;
+    transition: 0.3s ease-in-out;
 }

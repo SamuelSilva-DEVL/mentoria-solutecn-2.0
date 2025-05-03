@@ -35,9 +35,9 @@ const benefitsList = [
 
 export function Benefits() {
   return (
-    <section className="bg-black relative overflow-hidden">
+    <section className="bg-[(var(--tertiary-color-sn))] relative overflow-hidden text-[var(--text-secondary-color-sn)]" id="beneficios-qa">
       <div className="container mx-auto pt-16 pb-16 px-4 relative">
-        <article className="w-4/5 flex flex-col lg:flex-row gap-4 m-auto text-[var(--text-primary-color)]">
+        <article className="w-4/5 flex flex-col lg:flex-row gap-4 m-auto ">
           <div className="space-y-6">
             <h2
               className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10"
@@ -67,7 +67,7 @@ export function Benefits() {
             <ul className="list-disc list-inside space-y-2 list-none flex flex-col gap-2.5">
               {benefitsList.map((benefit, index) => (
                 <li key={benefit.id} className="flex gap-2.5 items-start" data-aos="fade-down" data-aos-delay={index * 120}>
-                  <FaCheckCircle className="text-6xl text-[var(--text-secondary-color)]" />
+                  <FaCheckCircle className="text-6xl text-[var(--primary-color-sn)]" />
                   <div>
                     <h4 className="text-2xl font-semibold">{benefit.title}</h4>
                     <p className="text-xl">{benefit.description}</p>

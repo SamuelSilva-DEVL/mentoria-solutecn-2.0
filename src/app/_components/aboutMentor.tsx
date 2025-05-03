@@ -2,11 +2,11 @@ import { ParticlesComponent } from "./particlesComponent";
 
 export function AboutMentor() {
     return (
-        <section className="bg-[url('/fundo-texturizado.jpg')] relative overflow-hidden h-full w-full">
+        <section className="bg-[var(--primary-color-sn)] bg-cover bg-no-repeat relative overflow-hidden h-full w-full text-[var(--text-primary-color-sn)]" id="sobre-mentor">
             <ParticlesComponent />
 
             <div className="container mx-auto pt-16 pb-16 px-4 relative">
-                <article className="w-4/5 flex flex-col lg:flex-row items-center gap-8 m-auto text-[var(--text-primary-color)]">
+                <article className="w-4/5 flex flex-col lg:flex-row items-center gap-8 m-auto">
                     <div className="w-full lg:w-1/2 space-y-6 z-10" data-aos="fade-right">
                         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10">
                             Sobre o Mentor
@@ -21,8 +21,8 @@ export function AboutMentor() {
                         Três anos mais tarde, atuo como analista profissional de software. Nesse período, tive a oportunidade de testar diversos sites e aplicativos móveis, incluindo os de grandes bancos, plataformas como o Vapt Vupt, o SESI, e de empresas do setor petrolífero. Graças a essa profissão, hoje minha família vive com bastante conforto e segurança.
                         </p>
                     </div>
-                    <div className="space-y-6" data-aos="fade-left" style={{zIndex: 0}}>
-                        <img src="/imagem-perfil2.png"></img>
+                    <div className="space-y-6 flex justify-end" data-aos="fade-left" style={{zIndex: 1}}>
+                        <img src="/teste2.png"></img>
                     </div>
                 </article>
             </div>

@@ -77,7 +77,7 @@ export function ParticlesComponent() {
             default: OutMode.out,
           },
           random: false,
-          speed: 4.5,
+          speed: 2.5,
           straight: false,
         },
         number: {

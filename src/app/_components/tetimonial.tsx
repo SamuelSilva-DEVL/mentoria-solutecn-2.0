@@ -45,10 +45,10 @@ export function Testimonials() {
   }
 
   return (
-    <section className="bg-black py-16">
+    <section className="bg-[var(--secondary-color-sn)] py-16 text-[var(--text-primary-color-sn)]" id="depoimentos">
       <div className="container mx-auto px-4" data-aos="fade-down">
 
-        <h2 className="text-4xl font-bold text-center mb-12 text-[var(--text-secondary-color)]">Depoimentos dos nossos alunos</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">Depoimentos dos nossos alunos</h2>
 
         <div className="relative max-w-4xl mx-auto">
 
@@ -56,7 +56,7 @@ export function Testimonials() {
             <div className='flex'>
               {testimonials.map((item, index) => (
                 <div key={index} className="flex-[0_0_100%] min-w-0 px-3">
-                  <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
+                  <article className="bg-[var(--primary-color-sn)] rounded-2xl p-6 space-y-4 h-full flex flex-col">
                     <div className='flex flex-col items-center text-center space-y-4'>
                       <div className='relative w-24 h-24'>
                         <Image

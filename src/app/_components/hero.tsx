@@ -1,15 +1,15 @@
 import { ButtonWppLink } from "./buttonWppLink";
-import ImageProfile from "../../../public/imagem-perfil2.png"
+import ImageProfile from "../../../public/teste2.png"
 import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="bg-[url('/fundo-texturizado.jpg')] relative overflow-hidden">
-      <div className="container mx-auto pt-16 pb-16 px-4 relative">
-        <article className="container w-4/5 flex flex-col lg:flex-row items-center justify-between gap-4 m-auto">
-          <div className="space-y-6 w-full lg:w-1/2">
+    <section className="bg-[#0F0F0F] bg-[url('/bg-teste.jpg')] bg-no-repeat bg-top-right bg-size-[contain] relative overflow-hidden" id="home">
+      <div className="container mx-auto pt-16 pb-5 px-4 relative">
+        <article className="container w-4/5 flex flex-col lg:flex-row items-center justify-between gap-4 m-auto" >
+          <div className="space-y-6 w-full lg:w-1/2 flex flex-col justify-center items-center">
             <h1
-              className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10 text-[var(--text-primary-color)]"
+              className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10 text-[var(--text-primary-color)] text-center"
               data-aos="fade-down"
             >
               Descubra como{" "}
@@ -30,7 +30,7 @@ export function Hero() {
                 className="rounded-xl w-full"
               ></iframe>
             </div>
-            <p className=" lg:text-lg" data-aos="fade-right">
+            <p className=" lg:text-lg text-[var(--text-primary-color)] text-center" data-aos="fade-right">
               Você pode trabalhar no conforto da sua casa, seja em um emprego
               fixo ou nas horas vagas, ganhando dinheiro ao testar aplicativos
               de lojas, bancos e até jogos online.
@@ -39,7 +39,7 @@ export function Hero() {
             <ButtonWppLink title="Quero ser QA e ganhar dinheiro" />
           </div>
 
-          <div className="w-1/2 h-full z-10" style={{border: "2p solid red"}} data-aos="fade-left">
+          <div className="w-1/2 h-full z-10 flex justify-end" style={{border: "2p solid red"}} data-aos="fade-left" >
             <Image
               src={ImageProfile}
               alt='Foto de perfil'
