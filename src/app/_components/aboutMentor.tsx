@@ -1,8 +1,22 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
 import { ParticlesComponent } from "./particlesComponent";
 
 export function AboutMentor() {
+    const sectionRef = useRef<HTMLElement>(null);
+    const [height, setHeight] = useState<number>(0);
+  
+    useEffect(() => {
+      if (sectionRef.current) {
+        setHeight(sectionRef.current.offsetHeight);
+      }
+    }, []);
+
     return (
-        <section className="bg-[var(--primary-color-sn)] bg-cover bg-no-repeat relative overflow-hidden h-full w-full text-[var(--text-primary-color-sn)]" id="sobre-mentor">
+        <section ref={sectionRef} className="bg-[var(--primary-color-sn)] bg-cover bg-no-repeat relative overflow-hidden h-ful w-full text-[var(--text-primary-color-sn)]" id="sobre-mentor">
+            {/* <div className={`absolute top-0 left-0 w-full h-[900px] z-0`}> */}
+            {/* </div> */}
             <ParticlesComponent />
 
             <div className="container mx-auto pt-16 pb-16 px-4 relative">

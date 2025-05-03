@@ -56,11 +56,12 @@ export default function CourseGuarantee() {
             Ao se inscrever nele agora você terá uma mentoria com:
           </h2>
 
-          <div className="flex flex-wrap gap-3 mt-3">
-            {guarantees.map((guarantee) => (
-              <div
+          <ul className="flex flex-wrap justify-center gap-3 mt-3">
+            {guarantees.map((guarantee, index) => (
+              <li
                 key={guarantee.id}
-                className="w-full md:w-[48%] lg:w-[31%] xxl:w-[32.63%] border-2 border-[var(--primary-color-sn)] rounded-lg p-1.5 flex flex-col items-center justify-center"
+                className="w-full md:w-[48%] lg:w-[32%] xxl:w-[33.63%] border-2 border-[var(--primary-color-sn)] rounded-lg p-1.5 flex flex-col items-center justify-center"
+                data-aos="fade-down" data-aos-delay={400 + index * 100}
               >
                 <img
                   src="/icone-mentoria.png"
@@ -74,9 +75,9 @@ export default function CourseGuarantee() {
                 <p className=" text-center">
                   {guarantee.description}
                 </p>
-              </div>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
 
         <div
@@ -84,6 +85,7 @@ export default function CourseGuarantee() {
           style={{
             boxShadow: "0px 9px 13px 0px rgba(0, 0, 0, 0.19)",
           }}
+          data-aos="fade-down" data-aos-delay={450}
         >
           <img
             src="/icone-mentoria.png"
