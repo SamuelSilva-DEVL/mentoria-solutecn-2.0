@@ -12,7 +12,14 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="text-2xl font-bold">
-            <Link href="#home">MinhaMarca</Link>
+            <Link href="#home">
+              <img
+                src="/solutecn.png"
+                alt="logo solutecn"
+                height={"70"}
+                width={"70"}
+              ></img>
+            </Link>
           </div>
 
           {/* Botão mobile */}

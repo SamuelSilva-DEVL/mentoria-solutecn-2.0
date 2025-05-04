@@ -1,5 +1,4 @@
 import React from "react";
-import Icone from "../../../public/icone-mentoria.png";
 import { ButtonWppLink } from "./buttonWppLink";
 
 const guarantees = [
@@ -8,42 +7,48 @@ const guarantees = [
     title: "Mentoria com o instrutor",
     description:
       "Tenha acesso direto ao instrutor para tirar dúvidas, receber orientações personalizadas e acelerar seu aprendizado com quem entende do assunto.",
-    icon: "/icons/mentoria.svg",
+    icon: "/speech-bubble.gif",
+    alt: "chat",
   },
   {
     id: 2,
     title: "Acesso vitalício ao conteúdo",
     description:
       "Estude no seu ritmo! O curso fica disponível para você por tempo ilimitado, permitindo revisar e retomar sempre que quiser.",
-    icon: "/icons/lifetime-access.svg",
+    icon: "/book.gif",
+    alt: "livro",
   },
   {
     id: 3,
     title: "Certificado reconhecido",
     description:
       "Ao concluir o treinamento, você receberá um certificado que comprova sua participação e conhecimento adquirido, valorizando ainda mais seu currículo.",
-    icon: "/icons/certificate.svg",
+    icon: "/certificate.gif",
+    alt: "certificado",
   },
   {
     id: 4,
     title: "Garantia incondicional de 14 dias",
     description:
       "Teste o curso por até 14 dias. Se não ficar satisfeito, devolvemos 100% do seu investimento, sem perguntas ou burocracias.",
-    icon: "/icons/guarantee.svg",
+    icon: "/shield.gif",
+    alt: "escudo",
   },
   {
     id: 5,
     title: "Suporte ágil e dedicado",
     description:
       "Conte com uma equipe pronta para te ajudar em qualquer dificuldade técnica ou dúvida sobre o curso, garantindo uma experiência de aprendizado tranquila.",
-    icon: "/icons/support.svg",
+    icon: "/helpdesk.gif",
+    alt: "atendimento",
   },
   {
     id: 6,
     title: "Atualizações contínuas do curso",
     description:
       "Receba todas as atualizações e novos conteúdos sem custo adicional, mantendo-se sempre atualizado com as melhores práticas do mercado.",
-    icon: "/icons/update.svg",
+    icon: "/event-management.gif",
+    alt: "engrenagem",
   },
 ];
 
@@ -60,14 +65,14 @@ export default function CourseGuarantee() {
             {guarantees.map((guarantee, index) => (
               <li
                 key={guarantee.id}
-                className="w-full md:w-[48%] lg:w-[32%] xxl:w-[33.63%] border-2 border-[var(--primary-color-sn)] rounded-lg p-1.5 flex flex-col items-center justify-center"
+                className="w-full md:w-[48%] lg:w-[32%] xxl:w-[33.63%] border-2 border-[var(--primary-color-sn)] rounded-lg p-1.5 flex flex-col items-center justify-center px-6 py-12"
                 data-aos="fade-down" data-aos-delay={400 + index * 100}
               >
                 <img
-                  src="/icone-mentoria.png"
-                  alt="icone-mentoria"
-                  height={"200"}
-                  width={"200"}
+                  src={guarantee.icon}
+                  alt={guarantee.alt}
+                  height={"100"}
+                  width={"100"}
                 ></img>
                 <h3 className="text-xl font-bold text-[var(--secondary-color-sn)] text-center">
                   {guarantee.title}
@@ -88,8 +93,8 @@ export default function CourseGuarantee() {
           data-aos="fade-down" data-aos-delay={450}
         >
           <img
-            src="/icone-mentoria.png"
-            alt="icone-mentoria"
+            src="/nova-logo.png"
+            alt="Formação profissional qa. Seu futuro na ti, começa aqui."
             height={"200"}
             width={"200"}
           ></img>

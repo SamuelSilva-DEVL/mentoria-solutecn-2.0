@@ -18,18 +18,9 @@ export function Hero() {
               sua <span className="text-[#00FFFF]">CARREIRA</span> com uma
               oportunidade <span className="text-[#00FFFF]">INCRÍVEL!</span>
             </h1>
-            <div className="relative w-full rounded-md">
-              <iframe
-                height="300"
-                src="https://www.youtube.com/embed/XHOmBV4js_E?si=RCpIgydP-RblNR2u"
-                title="YouTube video player"
-                frameBorder={0}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-                className="rounded-xl w-full"
-              ></iframe>
-            </div>
+
+            <img src="nova-logo.png" alt="Formação profissional de QA. Seu futuro na ti, começa aqui." height={"300"} width={"300"}></img>
+
             <p className=" lg:text-lg text-[var(--text-primary-color)] text-center" data-aos="fade-right">
               Você pode trabalhar no conforto da sua casa, seja em um emprego
               fixo ou nas horas vagas, ganhando dinheiro ao testar aplicativos
@@ -42,7 +33,7 @@ export function Hero() {
           <div className="w-1/2 h-full z-10 flex justify-end" style={{border: "2p solid red"}} data-aos="fade-left" >
             <Image
               src={ImageProfile}
-              alt='Foto de perfil'
+              alt='Imagem mentor Isaque, braços cruzados e camisa social.'
               // sizes="(max-width: 768px) 0vw, 50vw"
               quality={100}
               width={500}

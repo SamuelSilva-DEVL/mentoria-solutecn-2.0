@@ -12,9 +12,10 @@ export default function ValueCourse() {
         }}
       >
         <img
-          src="/icone-mentoria.png"
-          height={"250px"}
-          width={"250px"}
+          src="nova-logo.png" 
+          alt="Formação profissional de QA. Seu futuro na ti, começa aqui."
+          height={"200px"}
+          width={"200px"}
           data-aos="fade-up"
           data-aos-delay="300"
         ></img>

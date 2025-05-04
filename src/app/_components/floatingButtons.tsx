@@ -11,7 +11,7 @@ export default function FloatingButtons() {
     <div className="fixed bottom-6 right-6 flex flex-col items-end gap-4 z-50" data-aos="fade-left">
       {/* Botão WhatsApp */}
       <a
-        href="https://wa.me/5511999999999" // Substitua com seu número
+        href="https://wa.me/5588994822506"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition"

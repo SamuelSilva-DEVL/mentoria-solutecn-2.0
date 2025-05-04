@@ -36,7 +36,7 @@ export function AboutMentor() {
                         </p>
                     </div>
                     <div className="space-y-6 flex justify-end" data-aos="fade-left" style={{zIndex: 1}}>
-                        <img src="/teste2.png"></img>
+                        <img src="/teste2.png" alt='Imagem mentor Isaque, braços cruzados e camisa social.'></img>
                     </div>
                 </article>
             </div>

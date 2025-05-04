@@ -28,6 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="scroll-smooth">
+      <script src="https://cdn.lordicon.com/lordicon.js"></script>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

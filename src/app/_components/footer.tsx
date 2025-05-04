@@ -5,8 +5,13 @@ export default function Footer() {
     <footer className="bg-[var(--primary-color-sn)] text-[var(--tertiary-color-sn)]">
       <div className="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Coluna 1 */}
-        <div>
-          <h2 className="text-lg font-semibold mb-2">MinhaMarca</h2>
+        <div className="flex flex-col items-start  md:items-center gap-3">
+          <img
+            src="/solutecn.png"
+            alt="logo solutecn"
+            height={"80"}
+            width={"80"}
+          ></img>
           <p className="text-sm text-gray-200">
             &copy; {new Date().getFullYear()} Todos os direitos reservados.
           </p>
@@ -49,7 +54,7 @@ export default function Footer() {
           <h3 className="text-md font-semibold mb-2">Contato</h3>
           <ul className="text-sm space-y-1">
             <li>Email: contato@minhamarca.com</li>
-            <li>Telefone: (11) 1234-5678</li>
+            <li>Telefone: (88) 99482-2506</li>
             <li>Endereço: Rua Exemplo, 123</li>
           </ul>
         </div>
