@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Mentoria Solutecn",
   description: "Mentoria formação QA Solutecn",
   icons: {
-    icon: "/icone-mentoria.png",
+    icon: "/nova-logo.png",
   }
 };
 
