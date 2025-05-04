@@ -12,7 +12,7 @@ export function ButtonWppLink({ title }: ButtonWppLinkProps) {
       target="_blank"
       href={`https://wa.me/5588994822506?text=Olá vim pelo site e gostaria de mais informações sobre a solutecn`}
       // className={`bg-[${color}] text-[${textColor}] px-5 py-3 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:opacity-50`}
-      className="wpp-button-link w-fit px-5 py-5 flex gap-1.5"
+      className="wpp-button-link w-fit px-5 py-5 flex gap-1.5 text-[12px] uppercase md:text-[16px]"
     >
       <FaWhatsapp size={20}/>
       {title ? title : "Contato via WhatsApp"}

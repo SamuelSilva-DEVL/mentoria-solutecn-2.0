@@ -182,7 +182,6 @@ body {
   align-items: center;
   cursor: pointer;
   font-family: Consolas, Courier New, monospace;
-  font-size: 16px;
   color: #E0E0E0;
   background: linear-gradient(145deg, #050D22, #0F0F0F);
   border: solid #1E90FF 1px; 

@@ -4,7 +4,7 @@ export default function ValueCourse() {
   return (
     <section className="py-16 bg-[var(--primary-color-sn)] text-center text-[var(--tertiary-color-sn)]" id="valores">
       <div
-        className="w-[80%] md:w-1/2 px-4 py-8 m-auto rounded-xl shadow-md flex items-center flex-col gap-4 shadow-md"
+        className="w-[80%] md:w-1/2 px-4 py-8 m-auto rounded-xl flex items-center flex-col gap-4 shadow-md"
         style={{
           backgroundColor: "transparent",
           backgroundImage:
