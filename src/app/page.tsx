@@ -11,6 +11,7 @@ import { Testimonials } from "./_components/tetimonial";
 import CourseGuarantee from "./_components/courseGuarantee";
 import Faq from "./_components/faq";
 import Contacts from "./_components/contacts";
+import AboutRole from "./_components/aboutRole";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <AboutRole />
         <Modules />
         <Benefits />
         <Contacts />

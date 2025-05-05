@@ -29,11 +29,11 @@ export default function ValueCourse() {
         </h2>
 
         <p className="text-6xl md:text-8xl font-extrabold" data-aos="fade-up" data-aos-delay="500">
-          12 x de 97
+          12 x de 125
         </p>
 
         <p className="text-xl" data-aos="fade-up" data-aos-delay="500">
-          ou <span>R$ 997</span> à vista
+          ou <span>R$ 1250</span> à vista
         </p>
 
         <ButtonWppLink title="GARANTIR MINHA VAGA" />

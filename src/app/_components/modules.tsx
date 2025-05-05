@@ -83,7 +83,7 @@ const modulesList = [
   },
   {
     id: 14,
-    title: "Perfil no LinkedIn para desenvolvedores",
+    title: "Perfil no LinkedIn para profissionais de TI",
     description:
       "Dicas práticas para montar um perfil no LinkedIn focado na área de tecnologia.",
   },

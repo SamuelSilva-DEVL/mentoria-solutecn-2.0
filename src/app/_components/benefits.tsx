@@ -50,11 +50,11 @@ export function Benefits() {
               inovadoras, adaptáveis às necessidades dos nossos clientes.
             </p>
             <img
-              src="/imagem-beneficios.png"
+              src="/mmm.jpg"
               alt="imagem-beneficios"
               height={400}
-              width={"80%"}
-              className="m-auto"
+              width={"100%"}
+              className="m-auto rounded-sm"
               data-aos="fade-down"
               loading="lazy"
             ></img>
@@ -64,7 +64,7 @@ export function Benefits() {
             className="space-y-6 flex flex-col justify-center items-center"
             data-aos="fade-left"
           >
-            <ul className="list-disc list-inside space-y-2 list-none flex flex-col gap-2.5">
+            <ul className="list-inside space-y-2 list-none flex flex-col gap-2.5">
               {benefitsList.map((benefit, index) => (
                 <li key={benefit.id} className="flex gap-2.5 items-start" data-aos="fade-down" data-aos-delay={index * 120}>
                   <FaCheckCircle className="text-6xl text-[var(--primary-color-sn)]" />

@@ -99,6 +99,7 @@
 body {
   max-height: 100vh;
   scroll-behavior: smooth;
+  font-family: var(--font-roboto);
 }
 
 .dark {
@@ -107,7 +108,7 @@ body {
 
   --foreground: oklch(0.985 0 0);
 
-  --card: oklch(0.205 0 0);
+  --card: oklch(0.205 0 0);                                                                              
 
   --card-foreground: oklch(0.985 0 0);
 
