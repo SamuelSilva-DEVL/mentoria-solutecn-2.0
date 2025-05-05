@@ -6,8 +6,8 @@ export default function AboutRole() {
     >
       <div className="container mx-auto pt-16 pb-16 px-4 relative">
         <article className="w-4/5 flex flex-col lg:flex-row gap-2 m-auto ">
-          <div className="w-1/2 space-y-6" data-aos="fade-down">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10"
+          <div className="w-full md:w-1/2 space-y-6" data-aos="fade-down">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10 text-center md:text-left"
               >
               Analista de Sites/Aplicativos Conheça a profissão do futuro!
             </h2>
@@ -33,7 +33,7 @@ export default function AboutRole() {
           </div>
 
           <div
-            className="w-1/2 space-y-6 flex"
+            className="w-full md:w-1/2 space-y-6 flex"
             data-aos="fade-left"
           >
             <img src="/software.gif" width={600} height={600} alt="Imagem engrenagem desenvolvimento e inovação"></img>
