@@ -10,6 +10,7 @@ import ValueCourse from "./_components/valueCourse";
 import { Testimonials } from "./_components/tetimonial";
 import CourseGuarantee from "./_components/courseGuarantee";
 import Faq from "./_components/faq";
+import Contacts from "./_components/contacts";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <Modules />
         <Benefits />
+        <Contacts />
         <Testimonials />
         <AboutMentor />
         <ValueCourse />

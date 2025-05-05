@@ -2,8 +2,8 @@
 
 import useEmblaCarousel from 'embla-carousel-react'
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
-import tutor1 from '../../../public/imagem-perfil1.png'
-import tutor2 from '../../../public/imagem-perfil2.png'
+import tutor1 from '../../../public/teste2.png'
+import tutor2 from '../../../public/teste2.png'
 import Image from 'next/image'
 
 const testimonials = [

@@ -28,10 +28,10 @@ const guarantees = [
   },
   {
     id: 4,
-    title: "Garantia incondicional de 14 dias",
+    title: "Metodologia prática",
     description:
-      "Teste o curso por até 14 dias. Se não ficar satisfeito, devolvemos 100% do seu investimento, sem perguntas ou burocracias.",
-    icon: "/shield.gif",
+      "Focado em aplicações práticas, o curso oferece exercícios, e durante a aula, o aluno fará testes em sites de verdade para consolidar seu aprendizado.",
+    icon: "/rocket-launch.gif",
     alt: "escudo",
   },
   {
