@@ -7,7 +7,7 @@ const guarantees = [
     title: "Mentoria com o instrutor",
     description:
       "Tenha acesso direto ao instrutor para tirar dúvidas, receber orientações personalizadas e acelerar seu aprendizado com quem entende do assunto.",
-    icon: "/speech-bubble.gif",
+    icon: "/helpdesk.gif",
     alt: "chat",
   },
   {
@@ -36,10 +36,10 @@ const guarantees = [
   },
   {
     id: 5,
-    title: "Suporte ágil e dedicado",
+    title: "Horas que valem experiência",
     description:
-      "Conte com uma equipe pronta para te ajudar em qualquer dificuldade técnica ou dúvida sobre o curso, garantindo uma experiência de aprendizado tranquila.",
-    icon: "/helpdesk.gif",
+      "As horas que você passar nesse curso, te servirão como tempo de experi~encia, para uma possíve vaga de emprego ou para trabalhar como freelancer.",
+    icon: "/hourglass.gif",
     alt: "atendimento",
   },
   {
@@ -58,7 +58,7 @@ export default function CourseGuarantee() {
       <div className="container mx-auto pt-16 pb-16 px-4 flex flex-col gap-6 items-center justify-center">
         <div className="w-4/5 m-auto">
           <h2 className="w-full md:w-4/6 text-4xl md:text-5xl mx-auto font-bold text-center mb-3">
-            Ao se inscrever nele agora você terá uma mentoria com:
+            Ao se inscrever agora, você terá uma mentoria com:
           </h2>
 
           <ul className="flex flex-wrap justify-center gap-3 mt-3">

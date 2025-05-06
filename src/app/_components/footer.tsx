@@ -6,12 +6,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Coluna 1 */}
         <div className="flex flex-col items-start  md:items-center gap-3">
-          <img
-            src="/solutecn.png"
-            alt="logo solutecn"
-            height={"80"}
-            width={"80"}
-          ></img>
+          <div className="flex items-center gap-2">
+            <img
+              src="/solutecn.png"
+              alt="logo solutecn"
+              height={"80"}
+              width={"80"}
+            ></img>
+            <p className="text-2xl">Solutecn</p>
+          </div>
+          
           <p className="text-sm text-gray-200">
             &copy; {new Date().getFullYear()} Todos os direitos reservados.
           </p>

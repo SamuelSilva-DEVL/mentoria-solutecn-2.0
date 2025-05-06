@@ -30,7 +30,7 @@ const faqList = [
   {
     id: 5,
     question: "Como é entregue o conteúdo do curso?",
-    answer: "De forma online. Ao final de cada aula, o professor envia o conteúdo em mp3 para cada aluno, referente àquele conteúdo.",
+    answer: "De forma online. Ao final de cada aula, o professor envia o conteúdo em mp3 para cada aluno, referente ao conteúdo assistido.",
   },
   {
     id: 6,
@@ -40,7 +40,7 @@ const faqList = [
   {
     id: 7,
     question: "Qual o período do curso, e quantas aulas por semana?",
-    answer: "O curso terá duração de 3 meses, podendo estender-se a 4 meses, sendo duas aulas por semana, às terças e quintas-feiras à noite, a partir das 20h. Cada aula terá, em média, duração de uma hora e meia.",
+    answer: "O curso terá duração de 3 meses, podendo estender-se a 4 meses, sendo duas aulas por semana, às terças e quintas à noite, a partir das 20h. Cada aula terá, em média, duração de uma hora e meia.",
   },
   {
     id: 8,

@@ -38,7 +38,7 @@ export function Benefits() {
     <section className="bg-[(var(--tertiary-color-sn))] relative overflow-hidden text-[var(--text-secondary-color-sn)]" id="beneficios-qa">
       <div className="container mx-auto pt-16 pb-16 px-4 relative">
         <article className="w-4/5 flex flex-col lg:flex-row gap-4 m-auto ">
-          <div className="space-y-6">
+          <div className="w-full md:w-1/2 space-y-6">
             <h2
               className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10"
               data-aos="fade-down"
@@ -46,8 +46,7 @@ export function Benefits() {
               Os 5 principais benefícios de trabalhar na área de QA
             </h2>
             <p className="lg:text-lg" data-aos="fade-right">
-              Nossa empresa se destaca por oferecer soluções personalizadas e
-              inovadoras, adaptáveis às necessidades dos nossos clientes.
+              Poder trabalhar no conforto da sua casa, ou no lugar que você mais gosta, como uma praia, ou na varanda a beira de um lago.
             </p>
             <img
               src="/mmm.jpg"
@@ -61,7 +60,7 @@ export function Benefits() {
           </div>
 
           <div
-            className="space-y-6 flex flex-col justify-center items-center"
+            className="w-full md:w-1/2 space-y-6 flex flex-col justify-center items-center"
             data-aos="fade-left"
           >
             <ul className="list-inside space-y-2 list-none flex flex-col gap-2.5">

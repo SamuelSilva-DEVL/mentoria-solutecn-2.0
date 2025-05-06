@@ -11,14 +11,16 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="text-2xl font-bold">
-            <Link href="#home">
+          <div className="text-2xl">
+            <Link href="#home" className="flex items-center gap-2">
               <img
                 src="/solutecn.png"
                 alt="logo solutecn"
                 height={"70"}
                 width={"70"}
               ></img>
+
+              Solutecn
             </Link>
           </div>
 

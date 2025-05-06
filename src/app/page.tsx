@@ -23,7 +23,7 @@ export default function Home() {
         <Modules />
         <Benefits />
         <Contacts />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <AboutMentor />
         <ValueCourse />
         <CourseGuarantee />

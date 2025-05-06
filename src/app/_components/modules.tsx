@@ -11,7 +11,7 @@ const modulesList = [
     id: 1,
     title: "O que é o Analista de Qualidade de Software/QA",
     description:
-      "Entenda o papel do Analista de QA no ciclo de desenvolvimento de software.",
+      "Entenda o papel do Analista de testes no ciclo de desenvolvimento de software.",
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ const modulesList = [
     id: 8,
     title: "Técnicas e tipos de Testes",
     description:
-      "Estude técnicas como particionamento de equivalência, valores limite, e outros tipos de testes.",
+      "Aprenda diferentes formas e categorias de avaliar um software para garantir sua qualidade e correto funcionamento.",
   },
   {
     id: 9,

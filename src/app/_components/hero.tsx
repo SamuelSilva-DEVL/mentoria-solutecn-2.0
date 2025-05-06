@@ -13,8 +13,8 @@ export function Hero() {
               data-aos="fade-down"
             >
               Descubra como{" "}
-              <span className="text-[#00FFFF]">GANHAR DINHEIRO</span> testando
-              aplicativos e <span className="text-[#00FFFF]">TRANSFORME</span>{" "}
+              <span className="text-[#00FFFF]">GANHAR DINHEIRO</span> testando sites e
+              aplicativos, e <span className="text-[#00FFFF]">TRANSFORME</span>{" "}
               sua <span className="text-[#00FFFF]">CARREIRA</span> com uma
               oportunidade <span className="text-[#00FFFF]">INCRÍVEL!</span>
             </h1>
