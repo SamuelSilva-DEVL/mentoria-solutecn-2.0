@@ -27,17 +27,19 @@ export function AboutMentor() {
         <article className="w-4/5 flex flex-col lg:flex-row items-center gap-8 m-auto">
           <div className="w-full lg:w-1/2 space-y-6 z-10" data-aos="fade-right">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10">
-              Quem sou eu?
+              Conheça seu mentor
             </h2>
             <p className="lg:text-lg">
               Seja bem-vindo(a) á incrível jornada Formação Profissional QA, e
-              permita-me mostrar a mente por trás desses cursos transformadores:{" "}
-              <span className="underline font-bold">Isaac Ferreira</span>. Eu sou o seu professor, um QA
-              apaixonado por desafios e entusiastas em potencializar o sucesso
-              online.
+              permita-me mostrar a mente por trás desses cursos transformadores:
+              Isaac Ferreira. Eu sou o seu professor, um QA apaixonado por
+              desafios e entusiastas em potencializar o sucesso online.
             </p>
+            <p className="lg:text-lg">Quem sou eu?</p>
             <p className="lg:text-lg">
-              Iniciei minha trajetória profissional trabalhando em uma fábrica
+              Meu nome é{" "}
+              <span className="underline font-bold">Isaac Ferreira</span>,
+              iniciei minha trajetória profissional trabalhando em uma fábrica
               de sapatos no interior do Ceará. Ao longo do tempo, atuei como
               auxiliar de mecânico de motos, garçom, técnico em informática e,
               por quatro anos, trabalhei em navios de cruzeiros, até que a
@@ -46,17 +48,17 @@ export function AboutMentor() {
             <p className="lg:text-lg">
               Durante esse período desafiador, precisei encontrar uma forma de
               trabalhar em casa e garantir uma boa renda. Foi então que comecei
-              a estudar sobre a profissão de "Analista de Software". Fiz um
-              curso básico semelhante a esse e, alguns meses depois, já estava
-              empregado.
+              a estudar sobre a profissão de "Analista de qualidade de
+              Software". Fiz um curso básico semelhante a esse, e alguns meses
+              depois, já estava empregado.
             </p>
             <p className="lg:text-lg">
-              Três anos mais tarde, atuo como analista profissional de software.
-              Nesse período, tive a oportunidade de testar diversos sites e
-              aplicativos móveis, incluindo os de grandes bancos, plataformas
-              como o Vapt Vupt, o SESI, e de empresas do setor petrolífero.
-              Graças a essa profissão, hoje minha família vive com bastante
-              conforto e segurança.
+              Três anos mais tarde, atuo como analista profissional de qualidade
+              de software. Nesse período, tive a oportunidade de testar diversos
+              sites e aplicativos móveis, incluindo os de grandes bancos,
+              plataformas como o Vapt Vupt, SESI, Unimed e de empresas do setor
+              petrolífero. Graças a essa profissão, hoje minha família vive com
+              bastante conforto e segurança.
             </p>
           </div>
           <div
