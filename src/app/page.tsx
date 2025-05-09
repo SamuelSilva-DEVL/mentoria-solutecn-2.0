@@ -12,6 +12,7 @@ import CourseGuarantee from "./_components/courseGuarantee";
 import Faq from "./_components/faq";
 import Contacts from "./_components/contacts";
 import AboutRole from "./_components/aboutRole";
+import SearchJob from "./_components/searchJob";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <AboutRole />
         <Modules />
         <Benefits />
+        <SearchJob />
         <Contacts />
         {/* <Testimonials /> */}
         <AboutMentor />
