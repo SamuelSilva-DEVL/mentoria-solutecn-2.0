@@ -27,7 +27,7 @@ export function Hero() {
               de lojas, bancos e até jogos online.
             </p>
 
-            <ButtonWppLink title="Quero ser QA e ganhar dinheiro" />
+            <ButtonWppLink title="QUERO SER QA" />
           </div>
 
           <div className="w-1/2 h-full z-10 flex justify-end" style={{border: "2p solid red"}} data-aos="fade-left" >

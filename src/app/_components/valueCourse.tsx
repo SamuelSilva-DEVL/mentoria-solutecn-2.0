@@ -28,7 +28,7 @@ export default function ValueCourse() {
           POR APENAS:
         </h2>
 
-        <p className="text-6xl md:text-8xl font-extrabold" data-aos="fade-up" data-aos-delay="500">
+        <p className="text-5xl md:text-8xl font-extrabold" data-aos="fade-up" data-aos-delay="500">
           12 x de 125
         </p>
 
@@ -36,7 +36,7 @@ export default function ValueCourse() {
           ou <span>R$ 1250</span> à vista
         </p>
 
-        <ButtonWppLink title="GARANTIR MINHA VAGA" />
+        <ButtonWppLink title="QUERO ME INSCREVER" />
 
         <img
           src="/metodos-pagamento.webp"

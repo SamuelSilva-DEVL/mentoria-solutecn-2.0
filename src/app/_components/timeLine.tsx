@@ -32,7 +32,7 @@ export default function TimeLine() {
           </div>
 
           <div className="w-1/2 space-y-6 flex" data-aos="fade-left">
-            <img src="/software.gif" width={600} height={600}></img>
+            <img src="/software.gif" width={600} height={600} alt="Icone engrenagem desenvolvimento software"></img>
           </div>
         </article>
       </div>

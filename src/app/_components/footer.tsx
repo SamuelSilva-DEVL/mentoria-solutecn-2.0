@@ -59,6 +59,7 @@ export default function Footer() {
           <ul className="text-sm space-y-1">
             <li>Email: <a href="mailto:isaque.solutecn@gmail.com">isaque.solutecn@gmail.com</a></li>
             <li>Telefone: <a href="tel:+5588994822506">(88) 99482-2506</a></li>
+            <li>Linkedin: <a href="http://www.linkedin.com/in/isaac-ferreira-737428223" className="underline" target="_blank">Isaac Ferreira</a></li>
           </ul>
         </div>
       </div>

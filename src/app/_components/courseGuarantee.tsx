@@ -114,7 +114,7 @@ export default function CourseGuarantee() {
           </div>
         </div>
 
-        <ButtonWppLink title="Quero garantir minha vaga" />
+        <ButtonWppLink title="QUERO ME INSCREVER AGORA" />
       </div>
     </section>
   );
