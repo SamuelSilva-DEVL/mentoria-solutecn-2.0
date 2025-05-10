@@ -38,7 +38,7 @@ const guarantees = [
     id: 5,
     title: "Horas que valem experiência",
     description:
-      "As horas que você passar nesse curso, te servirão como tempo de experi~encia, para uma possíve vaga de emprego ou para trabalhar como freelancer.",
+      "As horas que você passar nesse curso, te servirão como tempo de experiência, para uma possíve vaga de emprego ou para trabalhar como freelancer.",
     icon: "/hourglass.gif",
     alt: "atendimento",
   },
@@ -108,7 +108,7 @@ export default function CourseGuarantee() {
               exige, para que você teste o treinamento com total liberdade. Se
               dentro desse prazo você sentir que o curso não é para você, é só
               nos enviar um e-mail e devolveremos 100% do seu dinheiro, sem
-              perguntas, complicações ou burocracia. Simples assim – sua
+              perguntas, complicações ou burocracia. Simples assim, sua
               satisfação está garantida!
             </p>
           </div>

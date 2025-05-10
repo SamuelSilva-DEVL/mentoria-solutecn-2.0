@@ -3,7 +3,7 @@ import { Icon } from "lucide-react";
 const TimeLineList = [
   {
     id: 1,
-    title: "Inscrições e pagamento",
+    title: "Inscrições",
     description: "Inicia em 11/05/2025 e vai até o dia 01/07/2025.",
     icon: "/bill.gif",
   },

@@ -11,7 +11,7 @@ export default function SearchJob() {
         </h2>
 
         <p className="mb-8 text-center">
-          O trabalho de Testador de Aplicativos faz parte da área de tecnologia,
+          O trabalho de Testador de Sites e Aplicativos faz parte da área de tecnologia,
           sendo uma das profissões que mais crescem no mundo! Um estudo da
           Brasscom aponta uma demanda de 797 mil profissionais de tecnologia,
           destacando o enorme potencial dessa carreira.
