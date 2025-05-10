@@ -31,8 +31,8 @@ const TimeLineList = [
 export default function TimeLine() {
   return (
     <section className="relative overflow-hidden py-16" id="beneficios-qa">
-      <article className="w-4/5 flex flex-col items-center mx-auto">
-        <h2 className="text-4xl font-bold mb-12" data-aos="fade-down">
+      <article className="w-full md:w-4/5 flex flex-col items-center mx-auto px-4 md:px-0">
+        <h2 className="text-4xl font-bold mb-12 text-center" data-aos="fade-down">
           Cronograma da mentoria
         </h2>
 
@@ -40,7 +40,7 @@ export default function TimeLine() {
           {TimeLineList.map((item, index) => (
             <li
               key={item.id}
-              className="w-4/5 mx-auto flex gap-3 mb-3"
+              className="w-full md:w-4/5 mx-auto flex gap-3 mb-3"
               data-aos="fade-down"
               data-aos-delay={400 + index * 100}
             >
