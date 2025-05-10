@@ -7,12 +7,13 @@ import FloatingButtons from "./_components/floatingButtons";
 import { Benefits } from "./_components/benefits";
 import { AboutMentor } from "./_components/aboutMentor";
 import ValueCourse from "./_components/valueCourse";
-import { Testimonials } from "./_components/tetimonial";
+// import { Testimonials } from "./_components/tetimonial";
 import CourseGuarantee from "./_components/courseGuarantee";
 import Faq from "./_components/faq";
 import Contacts from "./_components/contacts";
 import AboutRole from "./_components/aboutRole";
 import SearchJob from "./_components/searchJob";
+import TimeLine from "./_components/timeLine";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Benefits />
         <SearchJob />
         <Contacts />
+        <TimeLine />
         {/* <Testimonials /> */}
         <AboutMentor />
         <ValueCourse />

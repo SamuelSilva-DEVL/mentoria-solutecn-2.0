@@ -1,41 +1,63 @@
+import { Icon } from "lucide-react";
+
+const TimeLineList = [
+  {
+    id: 1,
+    title: "Inscrições e pagamento",
+    description: "Inicia em 19/09/2024 e vai até o dia 22/10/2024.",
+    icon: "/bill.gif",
+  },
+  {
+    id: 2,
+    title: "Data de início das aulas",
+    description: "22/10/2024 a 21/01/2025.",
+    icon: "/calendar.gif",
+  },
+  {
+    id: 3,
+    title: "Horário das aulas",
+    description:
+      "As Terças e Quintas a partir das 19:30hrs. E aos Sábados para suporte aos alunos a partir das 20:00hrs.",
+    icon: "/pocket-watch.gif",
+  },
+  {
+    id: 4,
+    title: "Local das aulas",
+    description: "As aulas acontecerão online via google meet.",
+    icon: "/location.gif",
+  },
+];
+
 export default function TimeLine() {
   return (
-    <section
-      className="bg-[(var(--tertiary-color-sn))] relative overflow-hidden text-[var(--text-secondary-color-sn)]"
-      id="beneficios-qa"
-    >
-      <div className="container mx-auto pt-16 pb-16 px-4 relative">
-        <article className="w-4/5 flex flex-col lg:flex-row gap-2 m-auto ">
-          <div className="w-1/2 space-y-6" data-aos="fade-down">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10">
-              Analista de Sites/Aplicativos Conheça a profissão do futuro!
-            </h2>
+    <section className="relative overflow-hidden py-16" id="beneficios-qa">
+      <article className="w-4/5 flex flex-col items-center mx-auto">
+        <h2 className="text-4xl font-bold mb-12" data-aos="fade-down">
+          Cronograma da mentoria
+        </h2>
 
-            <p>
-              Você já usou um aplicativo cheio de erros? Tenho certeza que sim!
-              Mas já parou para pensar por que isso acontece? Isso ocorre devido
-              à falta de testes adequados para garantir que tudo funcione
-              perfeitamente.
-            </p>
-            <p>
-              O testador de aplicativos é o profissional responsável por avaliar
-              e verificar o desempenho de diversos tipos de aplicativos, como
-              sites de e-commerce, jogos de celular ou computador, redes
-              sociais, sistemas bancários, e muito mais!
-            </p>
-            <p>
-              Além de "testador de aplicativos", essa função também é conhecida
-              por outros termos, como analista de testes, analista de qualidade
-              e analista de QA. Embora os nomes variem, o objetivo é o mesmo:
-              garantir que tudo funcione como esperado, testando cada detalhe!
-            </p>
-          </div>
-
-          <div className="w-1/2 space-y-6 flex" data-aos="fade-left">
-            <img src="/software.gif" width={600} height={600} alt="Icone engrenagem desenvolvimento software"></img>
-          </div>
-        </article>
-      </div>
+        <ul>
+          {TimeLineList.map((item, index) => (
+            <li
+              key={item.id}
+              className="w-4/5 mx-auto flex gap-3 mb-3"
+              data-aos="fade-down"
+              data-aos-delay={400 + index * 100}
+            >
+              <img
+                src={item.icon}
+                alt={item.title}
+                height={"100"}
+                width={"100"}
+              ></img>
+              <div>
+                <h3 className="text-3xl font-bold mb-2">{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </article>
     </section>
   );
 }
