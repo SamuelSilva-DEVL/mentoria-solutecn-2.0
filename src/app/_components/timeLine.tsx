@@ -4,20 +4,20 @@ const TimeLineList = [
   {
     id: 1,
     title: "Inscrições e pagamento",
-    description: "Inicia em 19/09/2024 e vai até o dia 22/10/2024.",
+    description: "Inicia em 11/05/2025 e vai até o dia 01/07/2025.",
     icon: "/bill.gif",
   },
   {
     id: 2,
     title: "Data de início das aulas",
-    description: "22/10/2024 a 21/01/2025.",
+    description: "Inicia em 01/07/2025.",
     icon: "/calendar.gif",
   },
   {
     id: 3,
     title: "Horário das aulas",
     description:
-      "As Terças e Quintas a partir das 19:30hrs. E aos Sábados para suporte aos alunos a partir das 20:00hrs.",
+      "As Terças e Quintas a partir das 20:00hrs.",
     icon: "/pocket-watch.gif",
   },
   {
@@ -40,7 +40,7 @@ export default function TimeLine() {
           {TimeLineList.map((item, index) => (
             <li
               key={item.id}
-              className="w-full md:w-4/5 mx-auto flex gap-3 mb-3"
+              className="w-full mx-auto flex gap-3 mb-3"
               data-aos="fade-down"
               data-aos-delay={400 + index * 100}
             >

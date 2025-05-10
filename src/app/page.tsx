@@ -26,11 +26,11 @@ export default function Home() {
         <Benefits />
         <SearchJob />
         <Contacts />
-        <TimeLine />
         {/* <Testimonials /> */}
         <AboutMentor />
         <ValueCourse />
         <CourseGuarantee />
+        <TimeLine />
         <Faq />
       </main>
       <Footer />
