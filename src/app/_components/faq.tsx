@@ -79,7 +79,7 @@ const faqList = [
 
 export default function Faq() {
   return (
-    <section className="text-[var(--primary-color-sn)]" id="faq">
+    <section className="text-[var(--primary-color-sn)]" id="faq" data-aos="fade-down">
       <div className="container mx-auto w-4/5 pt-16 pb-16 px-4 flex flex-col gap-6 items-center justify-center">
         <p className="text-4xl font-bold text-center">
           Algumas perguntas frequentes
@@ -98,38 +98,6 @@ export default function Faq() {
               <AccordionContent>{faq.answer}</AccordionContent>
             </AccordionItem>
           ))}
-        </Accordion>
-      </div>
-
-      <div className="container mx-auto w-4/5 pt-16 pb-16 px-4 flex flex-col gap-6 items-center justify-center">
-        <p className="text-4xl font-bold text-center">
-          Política de privacidade
-        </p>
-
-        <Accordion type="single" collapsible className="w-full  mx-auto">
-          <AccordionItem
-            value="item-1"
-            className="w-full border rounded-md shadow-md mb-2 px-3 cursor-pointer"
-          >
-            <AccordionTrigger className="cursor-pointer text-xl   data-[state=open]:text-[var(--primary-color)]">
-              Conformidade com LGPD
-            </AccordionTrigger>
-            <AccordionContent>
-              Ao preencher esse formulário você declara expresso CONSENTIMENTO
-              que a empresa 55.933.476 ISAAC LUIS DA SILVA FERREIRA, irá
-              coletar, tratar os dados necessários ao cumprimento para fins
-              identificação do interessado a entrar na mentoria, nos termos do
-              Art. 7º, inc. V da LGPD, os dados necessários para cumprimento de
-              obrigações legais, nos termos do Art. 7º, inc. II da LGPD, bern
-              como os dados, se necessários para proteção ao crédito, conforme
-              autorizado pelo Art. 7°, inc. V da LGPD. Seus dados aqui contidos
-              serão usados para gerar o pagamento da matrícula e mentoria quando
-              for o caso, mas caso você por quaisquer motivos que forem, optar
-              por não continuar no processo inscrição na mentoria afirmamos que
-              TODOS os seus dados serão excluídos em até 24h após expressa
-              comunicação.
-            </AccordionContent>
-          </AccordionItem>
         </Accordion>
       </div>
     </section>

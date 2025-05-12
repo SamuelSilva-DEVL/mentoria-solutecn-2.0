@@ -14,6 +14,7 @@ import Contacts from "./_components/contacts";
 import AboutRole from "./_components/aboutRole";
 import SearchJob from "./_components/searchJob";
 import TimeLine from "./_components/timeLine";
+import PolicyPrivate from "./_components/policyPrivate";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         <CourseGuarantee />
         <TimeLine />
         <Faq />
+        <PolicyPrivate />
       </main>
       <Footer />
       <FloatingButtons />
