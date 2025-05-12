@@ -90,9 +90,9 @@ export default function Faq() {
             <AccordionItem
               key={faq.id}
               value={`item-${faq.id}`}
-              className="w-full border rounded-md shadow-md mb-2 px-3 cursor-pointer"
+              className="w-full border rounded-md shadow-md mb-3 px-3 cursor-pointer accordion-trigger-style"
             >
-              <AccordionTrigger className="cursor-pointer text-xl   data-[state=open]:text-[var(--primary-color)]">
+              <AccordionTrigger className="cursor-pointer text-xl   data-[state=open]:underline">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent>{faq.answer}</AccordionContent>

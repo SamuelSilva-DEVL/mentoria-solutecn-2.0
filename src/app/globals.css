@@ -213,13 +213,13 @@ body {
 
 /* styles/globals.css ou styles/accordion.css */
 .accordion-trigger-style {
-  @apply  text-[#E0E0E0] font-mono rounded-[5px] border border-[#1E90FF] no-underline transition-all duration-400 ease-in-out;
+  @apply  text-[#E0E0E0] rounded-[5px] border border-[#1E90FF] no-underline transition-all duration-400 ease-in-out;
   background: linear-gradient(145deg, #050D22, #0F0F0F);
   box-shadow:
-    -1px -5px 15px #1E90FF,
-    5px 5px 15px #1E90FF,
-    inset 5px 5px 10px #0F0F0F,
-    inset -5px -5px 10px #0F0F0F;
+    -1px -3px 5px #1E90FF,
+    3px 3px 5px #1E90FF,
+    inset 3px 3px 5px #0F0F0F,
+    inset -3px -3px 5px #0F0F0F;
 }
 
 .accordion-trigger-style:hover {
