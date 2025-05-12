@@ -19,12 +19,10 @@ export function AboutMentor() {
       className="bg-[var(--primary-color-sn)] bg-cover bg-no-repeat relative overflow-hidden h-ful w-full text-[var(--text-primary-color-sn)]"
       id="sobre-mentor"
     >
-      {/* <div className={`absolute top-0 left-0 w-full h-[900px] z-0`}> */}
-      {/* </div> */}
       <ParticlesComponent />
 
       <div className="container mx-auto pt-16 pb-16 px-4 relative">
-        <article className="w-4/5 flex flex-col lg:flex-row items-center gap-8 m-auto">
+        <article className="w-4/5 flex flex-col lg:flex-row items-center justify-around gap-8 m-auto">
           <div className="w-full lg:w-1/2 space-y-6 z-10" data-aos="fade-right">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10">
               Conheça seu mentor
@@ -61,15 +59,16 @@ export function AboutMentor() {
               bastante conforto e segurança.
             </p>
           </div>
+
           <div
             className="space-y-6 flex justify-end"
             data-aos="fade-left"
-            style={{ zIndex: 1 }}
+            style={{ zIndex: 0 }}
           >
             <img
-              src="/imagem-2.png"
+              src="/image_about_mentor.png"
               alt="Imagem mentor Isaque, braços levantados e camisa social."
-              width={"100%"}
+              className="w-full md:w-[400px]"
             ></img>
           </div>
         </article>

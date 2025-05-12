@@ -1,12 +1,12 @@
 import { ButtonWppLink } from "./buttonWppLink";
-import ImageProfile from "../../../public/teste2.png"
+import ImageProfile from "../../../public/image_hero.png"
 import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="bg-[#0F0F0F] bg-[url('/bg-teste.jpg')] bg-no-repeat bg-top-right bg-size-[contain] relative overflow-hidden" id="home">
+    <section className="bg-[#0F0F0F] bg-[url('/bg_hero.jpg')] bg-no-repeat bg-top-right bg-size-[contain] relative overflow-hidden" id="home">
       <div className="container mx-auto pt-16 pb-5 px-4 relative">
-        <article className="container w-4/5 flex flex-col lg:flex-row items-center justify-between gap-4 m-auto" >
+        <article className="container w-4/5 flex flex-col lg:flex-row items-center justify-around gap-4 m-auto">
           <div className="space-y-6 w-full lg:w-1/2 flex flex-col justify-center items-center">
             <h1
               className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10 text-[var(--text-primary-color)] text-center"
@@ -30,14 +30,12 @@ export function Hero() {
             <ButtonWppLink title="QUERO SER QA" />
           </div>
 
-          <div className="w-1/2 h-full z-10 flex justify-end" style={{border: "2p solid red"}} data-aos="fade-left" >
+          <div className="h-full z-10 flex justify-end mt-3 md:mt-0" data-aos="fade-left" >
             <Image
               src={ImageProfile}
               alt='Imagem mentor Isaque, braços cruzados e camisa social.'
-              // sizes="(max-width: 768px) 0vw, 50vw"
-              quality={100}
-              width={500}
               priority
+              className="w-full md:w-[400px]"
             />
           </div>
         </article>
