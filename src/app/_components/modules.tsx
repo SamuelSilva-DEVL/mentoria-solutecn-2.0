@@ -3,7 +3,6 @@
 import useEmblaCarousel from "embla-carousel-react";
 import AutoScroll from "embla-carousel-auto-scroll";
 import { useEffect } from "react";
-import { FaWhatsapp, FaArrowUp } from "react-icons/fa";
 import { ButtonWppLink } from "./buttonWppLink";
 
 const modulesList = [
@@ -157,21 +156,6 @@ export function Modules() {
                           </div>
                         </div>
                       </div>
-
-                      {/* <div className="border-t border-gray-400 pt-4 flex items-center justify-between">
-                        <div className="flex items-center gap-2 text-sm">
-                          <span>{item.duration}</span>
-                        </div>
-
-                        <a
-                          target="_blank"
-                          href={`https://wa.me/5588994822506?text=Olá, vim pelo site e gostaria de mais informações sobre ${item.title}`}
-                          className="flex items-center justify-center gap-2 hover:bg-[var(--tertiary-color)] hover:text-black px-4 py-1 rounded-md duration-300"
-                        >
-                          <FaWhatsapp size={20} />
-                          Quero me inscrever
-                        </a>
-                      </div> */}
                     </div>
                   </article>
                 </div>
