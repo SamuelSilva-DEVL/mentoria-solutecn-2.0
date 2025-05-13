@@ -4,7 +4,7 @@ const TimeLineList = [
   {
     id: 1,
     title: "Inscrições",
-    description: "Inicia em 11/05/2025 e vai até o dia 01/07/2025.",
+    description: "Inicia em 13/05/2025 e vai até o dia 01/07/2025.",
     icon: "/bill.gif",
   },
   {
