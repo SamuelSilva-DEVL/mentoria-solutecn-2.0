@@ -77,7 +77,7 @@ export default function Contacts() {
       </div>
 
       <img
-        src="/eee.png"
+        src="/eeee.png"
         alt="Imagem mensagens recrutadores"
         className="hidden md:block w-full h-full object-fill"
       />
