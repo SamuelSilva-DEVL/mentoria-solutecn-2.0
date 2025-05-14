@@ -7,7 +7,7 @@ import AutoScroll from "embla-carousel-auto-scroll";
 const messagesRecruiters = [
   {
     id: 1,
-    linkImage: "/Ammanda.png",
+    linkImage: "/Amanda.png",
   },
   {
     id: 2,
