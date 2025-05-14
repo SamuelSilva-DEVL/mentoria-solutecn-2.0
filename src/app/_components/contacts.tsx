@@ -11,7 +11,7 @@ const messagesRecruiters = [
   },
   {
     id: 2,
-    linkImage: "/Carol.png",
+    linkImage: "/Inter1.png",
   },
   {
     id: 3,
@@ -23,27 +23,27 @@ const messagesRecruiters = [
   },
   {
     id: 5,
-    linkImage: "/inter4.png",
+    linkImage: "/Inter4.png",
   },
   {
     id: 6,
-    linkImage: "/inter5.png",
+    linkImage: "/Inter5.png",
   },
   {
     id: 7,
-    linkImage: "/internacional.png",
+    linkImage: "/Ju.png",
   },
   {
     id: 8,
-    linkImage: "/Juliana.png",
+    linkImage: "/Raquel.png",
   },
   {
     id: 9,
-    linkImage: "/rachel.png",
+    linkImage: "/Rose.png",
   },
   {
     id: 10,
-    linkImage: "/rosimere.png",
+    linkImage: "/Ela.png",
   },
   {
     id: 11,
@@ -77,7 +77,7 @@ export default function Contacts() {
       </div>
 
       <img
-        src="/mensagens-web.png"
+        src="/eee.png"
         alt="Imagem mensagens recrutadores"
         className="hidden md:block w-full h-full object-fill"
       />
