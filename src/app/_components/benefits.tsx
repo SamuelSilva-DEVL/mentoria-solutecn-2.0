@@ -51,8 +51,8 @@ export function Benefits() {
             <img
               src="/mmm.jpg"
               alt="imagem-beneficios"
-              height={400}
-              width={"100%"}
+              height={300}
+              width={300}
               className="m-auto rounded-sm"
               data-aos="fade-down"
               loading="lazy"

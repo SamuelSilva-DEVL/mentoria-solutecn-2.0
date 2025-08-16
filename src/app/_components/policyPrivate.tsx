@@ -19,7 +19,7 @@ export default function PolicyPrivate() {
             </AccordionTrigger>
             <AccordionContent>
               Ao se inscrever na mentoria, você declara expresso CONSENTIMENTO
-              que a empresa 55.933.476 ISAAC LUIS DA SILVA FERREIRA, irá
+              que a empresa 55.933.476 ISAAC LUIS DA SILVA, irá
               coletar, tratar os dados necessários ao cumprimento para fins
               identificação do interessado a entrar na mentoria, nos termos do
               Art. 7º, inc. V da LGPD, os dados necessários para cumprimento de

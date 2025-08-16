@@ -196,6 +196,21 @@ body {
   inset -5px -5px 10px #0F0F0F;
 }
 
+.wpp-button-link-without-shadow {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: Consolas, Courier New, monospace;
+  color: #E0E0E0;
+  background: linear-gradient(145deg, #050D22, #0F0F0F);
+  border: solid #1E90FF 1px; 
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
 .wpp-button-link:hover {
   color: #F5F5F5;
   box-shadow: 

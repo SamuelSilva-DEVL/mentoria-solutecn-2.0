@@ -1,38 +1,42 @@
-import { Icon } from "lucide-react";
+import { Icon } from "lucide-react"
 
 const TimeLineList = [
   {
     id: 1,
     title: "Inscrições",
     description: "Inicia em 13/05/2025 e vai até o dia 01/07/2025.",
-    icon: "/bill.gif",
+    icon: "/calendar.gif",
   },
   {
     id: 2,
     title: "Data de início das aulas",
-    description: "Inicia em 01/07/2025.",
-    icon: "/calendar.gif",
+    description: "Inicia em 01/01/2025.",
+
+    icon: "/bill.gif",
   },
   {
     id: 3,
     title: "Horário das aulas",
-    description:
-      "As Terças e Quintas a partir das 20:00hrs.",
-    icon: "/pocket-watch.gif",
+    description: "As Terças e Quintas a partir das 20:00hrs.",
+    icon: "/location.gif",
   },
   {
     id: 4,
     title: "Local das aulas",
     description: "As aulas acontecerão online via google meet.",
-    icon: "/location.gif",
+
+    icon: "/pocket-watch.gif",
   },
-];
+]
 
 export default function TimeLine() {
   return (
     <section className="relative overflow-hidden py-16" id="beneficios-qa">
       <article className="w-full md:w-4/5 flex flex-col items-center mx-auto px-4 md:px-0">
-        <h2 className="text-4xl font-bold mb-12 text-center" data-aos="fade-down">
+        <h2
+          className="text-4xl font-bold mb-12 text-center"
+          data-aos="fade-down"
+        >
           Cronograma da mentoria
         </h2>
 
@@ -59,5 +63,5 @@ export default function TimeLine() {
         </ul>
       </article>
     </section>
-  );
+  )
 }

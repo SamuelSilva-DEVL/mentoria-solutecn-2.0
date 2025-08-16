@@ -58,7 +58,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="#sobre-mentor" className="hover:underline">
+              <Link href="#faq" className="hover:underline">
                 Mentor
               </Link>
             </li>
@@ -91,7 +91,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#sobre-mentor"
+                href="#faq"
                 className="block py-2 border-b border-white/20"
               >
                 Mentor

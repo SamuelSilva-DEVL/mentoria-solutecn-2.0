@@ -54,7 +54,7 @@ const faqList = [
     question:
       "Se eu não gostar, posso cancelar? Como fazer o cancelamento do curso?",
     answer:
-      "Sim, você tem 14 dias corridos a partir do início das aulas para analisar o curso e exercer o direito de cancelamento. Em até 7 dias, conforme o Código de Defesa do Consumidor, é possível cancelar e receber 100% do valor pago, sem dificuldades. Nós damos 14 dias para analisar.",
+      "Sim, você tem 14 dias corridos a partir do início das aulas para analisar o curso e exercer o direito de cancelamento. Em até 7 dias, conforme o Código de Defesa do Consumidor, é possível cancelar e receber 100% do valor pago, sem dificuldades. Nós damos 15 dias para analisar.",
   },
   {
     id: 9,
@@ -86,8 +86,9 @@ export default function Faq() {
         </p>
 
         <Accordion type="single" collapsible className="w-full  mx-auto">
-          {faqList.map((faq) => (
+          {faqList.map((faq, _index) => (
             <AccordionItem
+              disabled={_index === faqList.length - 1}
               key={faq.id}
               value={`item-${faq.id}`}
               className="w-full border rounded-md shadow-md mb-3 px-3 cursor-pointer accordion-trigger-style"

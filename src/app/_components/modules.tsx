@@ -135,7 +135,7 @@ export function Modules() {
                   className="w-full md:w-1/2 lg:w-1/3 xl:w-1/5 shrink-0 grow-0 pe-3"
                   style={{}}
                 >
-                  <article className="relative overflow-hidden bg-cover bg-center rounded-2xl h-60 flex flex-col items-center justify-center bg-[url('/teclado-mouse.webp')] border-white border-b-3 text-[var(--text-primary-color-sn)]">
+                  <article className="relative overflow-hidden bg-cover bg-center rounded-2xl h-60 flex flex-col items-center justify-center border-white border-b-3 text-[var(--text-primary-color-sn)]">
                     {/* Overlay semi-transparente */}
                     <div
                       className="absolute inset-0 bg-[var(--primary-color-sn)]"

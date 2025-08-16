@@ -9,7 +9,7 @@ export default function AboutRole() {
           <div className="w-full md:w-1/2 space-y-6" data-aos="fade-down">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10 text-center md:text-left"
               >
-              Analista de Sites/Aplicativos Conheça a profissão do futuro!
+              Analista de Sites Aplicativos Conheça a profissão do futuro!
             </h2>
 
             <p>
@@ -22,7 +22,7 @@ export default function AboutRole() {
               O testador de aplicativos é o profissional responsável por avaliar
               e verificar o desempenho de diversos tipos de aplicativos, como
               sites de e-commerce, jogos de celular ou computador, redes
-              sociais, sistemas bancários, e muito mais!
+              sociais, sistemas, e muito mais!
             </p>
             <p>
               Além de "testador de aplicativos", essa função também é conhecida

@@ -36,7 +36,7 @@ export default function ValueCourse() {
           ou <span>R$ 1250</span> à vista
         </p>
 
-        <ButtonWppLink title="QUERO ME INSCREVER" />
+        <ButtonWppLink title="QUERO ME INSCREVER" disabled/>
 
         <img
           src="/metodos-pagamento.webp"

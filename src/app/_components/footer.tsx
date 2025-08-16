@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col items-start  md:items-center gap-3">
           <div className="flex items-center gap-2">
             <img
-              src="/solutecn.png"
+              src="/nova-logo.png"
               alt="logo solutecn"
               height={"80"}
               width={"80"}
