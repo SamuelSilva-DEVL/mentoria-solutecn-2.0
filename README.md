@@ -79,33 +79,6 @@ O projeto utiliza um design system consistente com:
 - **Componentes**: Reutilizáveis e acessíveis
 - **Responsividade**: Mobile-first approach
 
-## 🖼️ Preview do Projeto
-
-### 🏠 Página Principal
-
-![Hero Section](./public/image_hero.png)
-_Seção principal com call-to-action e apresentação do mentor_
-
-### 📚 Módulos do Curso
-
-![Modules](./public/book.gif)
-_Apresentação dos módulos de aprendizado_
-
-### 💼 Benefícios da Carreira
-
-![Benefits](./public/imagem-beneficios.png)
-_Destaque dos principais benefícios de trabalhar com QA_
-
-### 👨‍🏫 Sobre o Mentor
-
-![Mentor](./public/image_about_mentor.png)
-_Apresentação do mentor Isaac Ferreira_
-
-### 📱 Design Responsivo
-
-![Mobile Design](./public/mensagens-mobile.png)
-_Versão mobile otimizada_
-
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
