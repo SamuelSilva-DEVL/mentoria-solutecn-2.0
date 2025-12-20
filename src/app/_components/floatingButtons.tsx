@@ -14,7 +14,7 @@ export default function FloatingButtons() {
         href="https://wa.me/5588994822506"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition"
+        className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-colors animate-[bounce_1s_ease-in-out_infinite]"
         aria-label="Fale conosco no WhatsApp"
       >
         <FaWhatsapp size={24} />

@@ -4,13 +4,13 @@ const TimeLineList = [
   {
     id: 1,
     title: "Inscrições",
-    description: "Inicia em 13/05/2025 e vai até o dia 01/07/2025.",
+    description: "Inicia em 21/12/2025 e vai até o dia 02/02/2026.",
     icon: "/bill.gif",
   },
   {
     id: 2,
     title: "Data de início das aulas",
-    description: "Inicia em 01/07/2025.",
+    description: "Inicia em 03/02/2026.",
     icon: "/calendar.gif",
   },
   {

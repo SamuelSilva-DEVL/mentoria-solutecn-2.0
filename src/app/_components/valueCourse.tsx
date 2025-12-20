@@ -28,12 +28,16 @@ export default function ValueCourse() {
           POR APENAS:
         </h2>
 
-        <p className="text-5xl md:text-8xl font-extrabold" data-aos="fade-up" data-aos-delay="500">
-          12 x de 125
+        <p className="text-[28px] md:text-8xl font-extrabold" data-aos="fade-up" data-aos-delay="500">
+          <strong>10 x R$ 170,05</strong>
         </p>
 
-        <p className="text-xl" data-aos="fade-up" data-aos-delay="500">
-          ou <span>R$ 1250</span> à vista
+        <p className="text-[20px] md:text-[28px]" data-aos="fade-up" data-aos-delay="500">
+          ou <strong>R$ 500</strong> ao efetuar a matricula mais 2x de <strong>R$ 550</strong>
+        </p>
+
+        <p className="text-[22px] md:text-[24px]" data-aos="fade-up" data-aos-delay="500">
+          ou <strong>R$ 1500</strong> à vista
         </p>
 
         <ButtonWppLink title="QUERO ME INSCREVER" />
