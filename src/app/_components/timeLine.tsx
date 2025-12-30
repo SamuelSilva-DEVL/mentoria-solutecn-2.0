@@ -10,7 +10,7 @@ const TimeLineList = [
   {
     id: 2,
     title: "Data de início das aulas",
-    description: "Inicia em 03/02/2026.",
+    description: "Inicia em 03/03/2026.",
     icon: "/calendar.gif",
   },
   {
