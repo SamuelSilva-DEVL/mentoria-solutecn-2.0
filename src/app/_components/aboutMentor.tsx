@@ -51,8 +51,7 @@ export function AboutMentor() {
               depois, já estava empregado.
             </p>
             <p className="lg:text-lg">
-              Três anos mais tarde, atuo como analista profissional de qualidade
-              de software. Nesse período, tive a oportunidade de testar diversos
+              Atuo como analista profissional de qualidade de software a 5 anos. Nesse período, tive a oportunidade de testar diversos
               sites e aplicativos móveis, incluindo os de grandes bancos,
               plataformas como o Vapt Vupt, SESI, Unimed e de empresas do setor
               petrolífero. Graças a essa profissão, hoje minha família vive com
