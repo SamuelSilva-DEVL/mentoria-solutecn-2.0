@@ -60,8 +60,6 @@ export default function Footer() {
             <li>Email: <a href="mailto:isaque.solutecn@gmail.com">isaac.solutecn@gmail.com</a></li>
             <li>Telefone: <a href="tel:+5588994822506">(88) 99482-2506</a></li>
             <li>Linkedin: <a href="http://www.linkedin.com/in/isaac-ferreira-737428223" className="underline" target="_blank">Isaac Ferreira</a></li>
-            <li>Empresa: 55.933.476 ISAAC LUIS DA SILVA FERREIRA</li>
-            <li>CNPJ: 55.933.476/0001-77</li>
           </ul>
         </div>
       </div>
